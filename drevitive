@@ -1,0 +1,16 @@
+
+#include <iostream>
+using namespace std;
+int main()
+{ int po,npo,co,nco;
+    char var;
+    cin >>co>>var>>po;
+     for(int i=1;i>=1;i--)
+     {
+     nco=i*co;
+     co=nco;
+npo=i-1;
+cout<<nco<<var<<npo<<endl;}
+
+    return 0;
+}
