@@ -1,0 +1,44 @@
+#include <iostream>
+using namespace std;
+int main()
+{string bankname;
+int pin=5000;
+int pass=1234;
+int mypin ;
+int mypass;
+cout <<"enter your bank name";
+cin>> bankname;
+if (bankname=="cib")
+{cout <<"enter your password";
+cin>>mypass;
+    if (mypass==pass)
+    { cout <<"enter your cash";
+    cin >>mypin;
+    if(mypin <=pin)
+    {cout<<"hold your cash";
+        
+        
+    }
+    else 
+    cout <<"you don't have enough  many";
+        
+        
+        
+    }
+    else 
+    cout <<"your password is false";
+    
+    
+    
+    
+    
+    
+}
+else
+cout<<"your bank name is not cib";
+
+
+
+
+
+}
